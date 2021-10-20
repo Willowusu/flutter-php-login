@@ -2,7 +2,9 @@
 flutter login with php as the backend and mysql serving as the database
 
 copy folder flutter_login to xampp/htdocs
+
 open phpmyadmin in your browser and import database login_flutter.sql
-Cek your IPADDRESS, open cmd write ipconfig and press enter
+
 change code in file api.dart to
+
 class Api { static String url = "http://IPADDRESS/flutterlogin/check.php"; static String regis = "http://IPADDRESS/flutterlogin/register.php"; }
